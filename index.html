@@ -6,10 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mary Joy Arabe-Portfolio</title>
 
+		<!-- Bootstrap 5 CSS Link -->
+		<link href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css.rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Josefin+Sans:wght@300&family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 		<!-- External CSS -->
 		<link rel="stylesheet" href="./index.css" />
@@ -17,140 +20,110 @@
 	</head>
 <body>
 
+	
 	<!-- Navbar Section Start -->
 
-	<nav id="top">
+	<nav class="row d-flex justify-content-center gap-4 p-2">
 		<div>
-			<a href="#about">About</a>
-			<a href="#services">Services</a>
+			<a href="#landing">Landing</a>
 			<a href="#projects">Projects</a>
 			<a href="#tools">Tools</a>
 			<a href="#contact">Contact</a>
-			<a href="#appointment">Book an appointment</a>
 		</div>
 	</nav>
 		
 	<!-- Navbar Section End -->
 
-    <!-- Header Section Start -->
-    <section class="header creative" style="background-image: url(&quot;https://myprofile.ph/assets/front/img/user/63a1452096ce2.png&quot;); background-position: 5px 5px;" data-scroll-index="0"data-stellar-background-ratio="0.8" id="home">
-        <div class="container">
-            <div class="row">
-                <div class="v-midle">
-                    <div class="caption">
-
-                        <!-- Header Name -->
-                        <h1 style="font-family:Lobster;color:#000000;font-size:40px;text-shadow: 1px 1px 1px #000;">
-                            Hey I am <span style="font-family:Lobster;color:#000000;font-size:40px;text-shadow: 1px 1px 1px #000;">Mary
-                            </span></h1>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Header Section End -->
 
     <!-- About Section Start -->
-    <section>
-    	
+   
+    <section id="landing">
+    	<h2>Mary Joy Arabe</h2>
+    	<h3>Full Stack Web Developer</h3>
     </section>
 
-    
-
-		
-		<section id="about">
-			<h2>About</h2>
-			<h3 id="zuitt-motto">I am .. with strong creative and analytical skills, with an eye for detail, a passionate and dedicated person who is devoted and committed to the goals. I can help you to generate more leads and sales also to increase the number of visitors to a website and obtain a high-ranking placement in the results page of search engines.</h3>
-
-		</section>
-
-		
+    <!-- About Section End -->
 
 
-		<section id="services">
-			<h2>What I offer</h2>
-			<h3 class="modules">Frontend Development</h3>
-			<ol>
-				<li>Git</li>
-				<li>HTML</li>
-				<li>CSS</li>
-			</ol>
-			<h3 class="modules">Backend Development</h3>
-			<ol>
-				<li>Javascript</li>
-				<li>MongoDB</li>
-				<li>Node.js</li>
-				<li>Express.js</li>
-			</ol>
-			<h3 class="modules">Full-Stack Development</h3>
-			<ol>
-				<li>MongoDB</li>
-				<li>Express.js</li>
-				<li>React.js</li>
-				<li>Node.js</li>
-			</ol>
-		</section>
+    <!-- Project Section Start -->
 
-		<section id="projects">
+    <section id="projects">
+    	<h2>My projects</h2>
 
-		</section>
+    	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    		<div class="carousel-inner">
+    			<div class="carousel-item active">
+    				<img src="https://tse4.mm.bing.net/th?id=OIP.YqEo7qDnxNRFkQ2tRHGnCwHaE6&pid=Api&P=0&h=180" class="d-block w-100" alt="...">
+    			</div>
+    			<div class="carousel-item">
+    				<img src="https://tse1.mm.bing.net/th?id=OIP.t3AeRbnlAKmcn2lqzGfKuwHaE8&pid=Api&P=0&h=180" class="d-block w-100" alt="...">
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+	<!-- Projects Section End -->
 
 
-		<section id="tools">
+	<!-- Language Section Start -->
 
-		</section>
+    <section id="tools">
+    	<h2>Languages and Tools I'm using</h2>
+    	<img src="https://tse2.mm.bing.net/th?id=OIP.a3FkkNICZNqJPYYE_IQmQwHaE5&pid=Api&P=0&h=180" />
+     </section>
 
-		<section id="contact">
-			<h2>Contact Me</h2>
-			<div>
-				<form>
-					<label for="exampleInputEmail1">Email address</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-					</div>
-					<div class="form-group">
-						<label for="exampleInputPassword1">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1">
-					</div>
-					<div class="form-group form-check">
-						<input type="checkbox" class="form-check-input" id="exampleCheck1">
-						<label class="form-check-label" for="exampleCheck1">Check me out</label>
-					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
-			</div>
+    <!-- Language Section End -->
+    			
+    <!-- Contact Section Start -->
+    <section class="contact section-padding" data-scroll-index="7" id="contact" style="background-image: url(https://myprofile.ph/assets/front/img/covertemplate4.jpg);">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-7">
+    				<h4 class="head-left"=>Get In Touch
+    					<small style="color:#fff;"></small></h4>
+    					<div class="form section" id="contact-form">
+    						<div class="widget ContactForm" data-version="1" id="ContactForm1">
 
-		</section>
+    							<form action="https://myprofile.ph/maryjoylofrancoarabe/contact/message" enctype="multipart/form-data" method="post">
+    								<input type="hidden" name="_token" value="zKmYOVPKye1a1vCAKNg6JaPK3LSbmXoCf7NLxJO4">                                <input type="hidden" name="id" value="9865">
+    								<div class="form-group">
+    									<input placeholder="Name* :" type="text" name="fullname" class="form-control" id="ContactForm1_contact-form-name" fdprocessedid="m51yom">
+    								</div>
+    								<div class="form-group">
+    									<input type="email" id="ContactForm1_contact-form-email" placeholder="E-mail* :" name="email" fdprocessedid="4cc4yr">
+    								</div>
+    								<div class="form-group">
+    									<textarea type="tel" id="ContactForm1_contact-form-email-message" placeholder="Message* :" name="message"></textarea>
+    								</div>
+    								<input class="submit wow bounceIn animated animated" style="visibility: visible;" type="submit" value="Send" fdprocessedid="2mvsic">
+    								<div style="text-align: center; max-width: 222px; width: 100%">
+    								</div>
+    							</form>
+    							<div class="clear"></div>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="col-md-offset-1 col-md-4">
+    					<div class="info">
+    						<div class="item">
+    							<i class="fas fa-location-arrow"></i>
+    							<h6>Address :<br>
+    								<span>Cabuyao, Philippines</span></h6>
+    							</div>
+    							<div class="item">
+    								<i class="fas fa-envelope"></i>
+    								<h6>Email :<br>
+    									<span><a href="mailto:maryjoyarabe4@gmail.com" target="_blank">maryjoyarabe4@gmail.com</a></span></h6>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</section>
 
-		<section id="appointment">
-			<h2>Book an appointment</h2>
+    <!-- Contact Section End -->
 
-			<!-- Creates a label an allows for input field selection when clicked -->
-			<label for="full_name">Full Name:</label>
-			<!-- Creates an input field to capture user input -->
-			<input type="text" name="full_name" id="full_name" required autocomplete/>
-
-			<label for="email_address">Email Address:</label><br>
-			<input type="email" name="email_address" id="email_address" required />
-
-			<label for="phone_number">Phone number:</label><br>
-			<input type="number" name="phone_number" id="phone_number" required />
-
-			<!-- Creates a button that will submit the form data -->
-			<button type="submit">Submit</button>
-
-			<!-- Creates a button to reset the form data -->
-			<button type="clear">Clear</button>
-
-			
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
 	</body>
 </html>
